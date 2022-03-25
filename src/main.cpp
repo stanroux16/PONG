@@ -110,7 +110,7 @@ int main()
     RectangleShape raquetteLeft(Vector2f(raquetteWidth, raquetteHeight));
     raquetteLeft.setPosition(posRaquetteLeftX, posRaquetteLeftY);
 
-    RectangleShape raquetteRight(Vector2f(raquetteWidth, raquetteHeight));
+    RectangleShape raquetteRight(Vector2f(raquetteWidth, raquetteHeight)); 
     raquetteRight.setPosition(posRaquetteRightX, posRaquetteRightY);
 
     while (window.isOpen())
